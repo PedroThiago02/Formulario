@@ -70,10 +70,6 @@ legend {
 
 /* Estilo para as opções do select */
 .form-select option {
-    color: #a0a5ab; /* Azul acinzentado */
-}
-
-/* Placeholder do select em branco */
-.form-select option:first-child {
+    background-color: #a0a5ab; /* Azul acinzentado */
     color: white;
 }
