@@ -27,7 +27,7 @@ body {
 /* Forçar a cor branca no texto dos inputs */
 .form-control::placeholder, 
 .form-control, 
-.form-select, 
+.form-select::placeholder, 
 .form-check-input {
     color: white;
 }
@@ -66,4 +66,14 @@ legend {
 #fnpcispe span {
     font-style: italic;
     color: #87CEEB;
+}
+
+/* Estilo para as opções do select */
+.form-select option {
+    color: #a0a5ab; /* Azul acinzentado */
+}
+
+/* Placeholder do select em branco */
+.form-select option:first-child {
+    color: white;
 }
